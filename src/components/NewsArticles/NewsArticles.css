@@ -1,0 +1,12 @@
+.articles{
+  color: black;
+}
+
+.article-title:hover{
+color: rgb(58, 160, 228);
+}
+
+.demo{
+  font-style: italic;
+  color: rgb(80, 80, 82);
+}

@@ -1,0 +1,12 @@
+.top-news{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.top-image{
+  display: inline;
+  margin-top: 6%;
+  padding-left: 2%;
+  max-height: 130px;
+  max-width: 300px;
+  }

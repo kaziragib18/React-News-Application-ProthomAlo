@@ -6,9 +6,9 @@
   background-image: url('images/prothomAlo-logo.png');
   display: block;
   height: 7vh;
-  background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 200px;
   background-position:center;
+  background-repeat: no-repeat;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -17,6 +17,7 @@
   border: 2px solid grey;
   display: grid;
   height: 65vh;
+  grid-template-columns: 3fr 1fr;
 }
 
 .footer{

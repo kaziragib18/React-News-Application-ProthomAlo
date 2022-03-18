@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
+import Home from './components/Home/Home';
 
 function App() {
   const [data, setData] = useState([]);
@@ -26,7 +27,11 @@ function App() {
   return (
     <div className="App">
       <div className="logo"></div>
-      <div className="content"></div>
+
+      <div className="content">
+        <Home data={data} />
+      </div>
+
       <div className="footer"></div>
     </div>
   );
